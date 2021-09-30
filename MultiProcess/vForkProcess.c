@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<unistd.h>
+#include<stdlib.h>
 int globvar = 6;
 int main(void)
 {
