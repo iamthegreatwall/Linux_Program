@@ -39,5 +39,5 @@ int main(void)
         printf("waitpid error");
         exit(EXIT_FAILURE);
     }
-    eixt(0);
+    exit(0);
 }
