@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<unistd.h>
 #include<stdlib.h>
+
+static void charatatime(char *); 
 int main(void)
 {
     pid_t pid;
