@@ -12,7 +12,6 @@ int main(void)
         在子进程调用exec或exit之前，他在父进程的地址空间中运行，因此可以修改父进程中的数据
         另外，vFork会保证子进程先运行，在调用exec或exit之后父进程才有可能被调度（可能发生死锁）
     */
-    pid = fork();
     if((pid = vfork())<0)
     {
         
